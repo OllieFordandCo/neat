@@ -1,10 +1,12 @@
-We love pull requests. Here's a quick guide:
+# Contributing to Neat
+
+We love pull requests! Here’s a quick guide:
 
 1. Fork the repository.
 2. Make your changes in a topic branch.
 3. Run `rake` to see if you changes are breaking any existing functionality.
-3. Squash your commits into a single one (more on that [here](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html)).
-4. Rebase against `origin/master`, push to your fork and submit a pull request.
+4. Squash your commits into a single one (more on that [here](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html)).
+5. Rebase against `origin/master`, push to your fork and submit a pull request.
 
 At this point you're waiting on us. We like to at least comment on, if not
 accept, pull requests within three business days (and, typically, one business

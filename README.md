@@ -7,13 +7,21 @@
 
 ***
 
-## A lightweight, semantic grid framework built on top of Bourbon
+## A lightweight, semantic grid framework built on top of [Bourbon](https://github.com/thoughtbot/bourbon)
 
 Neat is a fluid grid framework built on [Bourbon](http://bourbon.io) with the aim of being easy enough to use out of the box and flexible enough to customize down the road.
 
-#### [Documentation & Demo](http://neat.bourbon.io)
+- [Documentation & Demo](http://neat.bourbon.io)
+- [Changelog](https://github.com/thoughtbot/neat/releases)
+- [Suggest features or file bugs](https://github.com/thoughtbot/neat/issues)
 
-#### [Changelog](https://github.com/thoughtbot/neat/releases)
+
+
+- Ask questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/neat). Don’t forget to tag them `bourbon` and `neat`
+- Join `#bourbon-neat` on `irc.freenode.net`
+- Add the docset to [Dash](http://kapeli.com/dash) 1.8+ (Preferences **>** Downloads **>** + *Add Docset Feed* **>** `http://neat.bourbon.io/docset/Neat.xml`)
+
+
 
 ## Requirements
 
@@ -24,6 +32,8 @@ Neat is a fluid grid framework built on [Bourbon](http://bourbon.io) with the ai
 ## Installation
 
 Neat uses the [RubyGems](https://rubygems.org) package manager to easily generate a `neat` directory with all of the necessary files.
+
+For command line help visit the [Command Line Interface Wiki](https://github.com/thoughtbot/neat/wiki/Command-Line-Interface).
 
 1. Install the Neat gem:
 
@@ -100,16 +110,6 @@ Neat uses the [RubyGems](https://rubygems.org) package manager to easily generat
   ```
 
 3. Follow the [instructions above](#installation) to install Neat into your project.
-
-## Command line interface
-
-```bash
-neat install
-neat update
-neat remove
-```
-
-More information can be found in the [wiki](https://github.com/thoughtbot/neat/wiki/Command-Line-Interface).
 
 ## Using Neat
 
@@ -244,13 +244,6 @@ At this point, writing an internal rounding mechanism is not high priority.
 
 Unless you [open a pull request](https://github.com/thoughtbot/neat/compare/), the answer is most likely going to be no. Neat is lightweight and simple compared to other grid frameworks, and strives to remain so. We have plans for adding new features in future versions of the framework, but these will be most likely to support new ways of working with layouts on the Web, not patches to existing ones.
 
-## Links
-
-- Add the docset to [Dash](http://kapeli.com/dash) 1.8+ (Preferences **>** Downloads **>** + *Add Docset Feed* **>** `http://neat.bourbon.io/docset/Neat.xml`)
-- Ask questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/neat). Don’t forget to tag them `bourbon` and `neat`.
-- Suggest features or file bugs in [Issues](https://github.com/thoughtbot/neat/issues).
-- Join `#bourbon-neat` on `irc.freenode.net`.
-
 ## Browser support
 
 - Chrome 4.0+
@@ -262,10 +255,10 @@ Unless you [open a pull request](https://github.com/thoughtbot/neat/compare/), t
 
 ## The Bourbon family
 
-- [Bourbon](http://bourbon.io): A simple and lightweight mixin library for Sass
-- [Neat](http://neat.bourbon.io): A lightweight semantic grid framework for Sass and Bourbon
-- [Bitters](http://bitters.bourbon.io): Scaffold styles, variables and structure for Bourbon projects
-- [Refills](http://refills.bourbon.io): Prepackaged patterns and components, built on top of Bourbon, Bitters & Neat
+- [Bourbon](https://github.com/thoughtbot/bourbon): A simple and lightweight mixin library for Sass
+- [Neat](https://github.com/thoughtbot/neat): A lightweight semantic grid framework for Sass and Bourbon
+- [Bitters](https://github.com/thoughtbot/bitters): Scaffold styles, variables and structure for Bourbon projects
+- [Refills](https://github.com/thoughtbot/refills): Prepackaged patterns and components built with Bourbon, Neat and Bitters
 
 ## Credits
 
